@@ -1,7 +1,7 @@
 package other;
 
 
-import utilities.others.FileReader;
+
 
 public class ReadFile {
 
@@ -19,8 +19,11 @@ public class ReadFile {
 //                e.printStackTrace();
 //            }
 
-//            FileReader.fileReader("src/resources/files/list_of_companies.txt");
-            FileReader.fileReaderWithCompare("src/resources/files/list_of_companies.txt", "Yurgos");
+            FileReaderRead.fileReaderWithCompare("src/resources/files/list_of_companies.txt", "University");
+
+
+
+
         }
     }
 
